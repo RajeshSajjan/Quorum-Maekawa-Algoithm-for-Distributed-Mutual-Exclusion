@@ -1,0 +1,342 @@
+Enter name of the node
+Node s3 is connected to node s1
+Node s3 is connected to node s2
+Node s3 is connected to node s4
+Node s3 is connected to node s5
+Node s3 is connected to node s6
+Node s3 is connected to node s7
+Node s3 is connected to node c1
+Node s3 is connected to node c2
+Node s3 is connected to node c3
+Node s3 is connected to node c4
+Node s3 is connected to node c5
+Received msg: REQUEST 5684309004511996 c1
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684276338186010 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684310561147471 c1
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684239763003825 c3
+Received msg: RELEASE c3
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684277894630254 c2
+Received msg: REQUEST 5684312164675294 c1
+Caller.waitlist --- [c1]
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c1
+Received msg: RELEASE c2
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684279046834445 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684237747231920 c4
+Received msg: REQUEST 5684241419351215 c3
+Caller.waitlist --- [c3]
+Received msg: REQUEST 5684313617739347 c1
+Caller.waitlist --- [c3, c1]
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684183091663826 c5
+Caller.waitlist --- [c1, c5]
+Received msg: REQUEST 5684280199108777 c2
+Caller.waitlist --- [c1, c5, c2]
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c4
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE c2
+Received msg: REQUEST 5684243022455230 c3
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684239554025939 c4
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684281501660479 c2
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684184706920262 c5
+Received msg: REQUEST 5684315772085864 c1
+Caller.waitlist --- [c1]
+Received msg: REQUEST 5684244174651913 c3
+Caller.waitlist --- [c1, c3]
+Received msg: RELEASE c2
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684240907188756 c4
+Received msg: RELEASE c4
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684283054289501 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684186262475868 c5
+Received msg: REQUEST 5684317425727187 c1
+Caller.waitlist --- [c1]
+Received msg: REQUEST 5684242261137599 c4
+Caller.waitlist --- [c1, c4]
+Received msg: REQUEST 5684245877568355 c3
+Caller.waitlist --- [c1, c4, c3]
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684284606915799 c2
+Received msg: RELEASE c2
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684188069310181 c5
+Received msg: REQUEST 5684319179195872 c1
+Caller.waitlist --- [c1]
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c1
+Received msg: REQUEST 5684243964351080 c4
+Received msg: RELEASE c4
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684247982063031 c3
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684189224327159 c5
+Received msg: REQUEST 5684286159552710 c2
+Caller.waitlist --- [c2]
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c2
+Received msg: REQUEST 5684245217406116 c4
+Received msg: RELEASE c4
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684320832596519 c1
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684249434912700 c3
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684287462116146 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684190679900339 c5
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684246570690054 c4
+Received msg: REQUEST 5684322085244976 c1
+Caller.waitlist --- [c1]
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c1
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684288714850071 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684250987720133 c3
+Received msg: REQUEST 5684192385822508 c5
+Caller.waitlist --- [c5]
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684248023780688 c4
+Caller.waitlist --- [c4]
+Received msg: REQUEST 5684323588465758 c1
+Caller.waitlist --- [c4, c1]
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c4
+Received msg: RELEASE c1
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684290367622196 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684249176466580 c4
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684252891315896 c3
+Received msg: REQUEST 5684193941937048 c5
+Caller.waitlist --- [c5]
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c5
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684325642499999 c1
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684254143601329 c3
+Received msg: REQUEST 5684250629579642 c4
+Caller.waitlist --- [c4]
+Received msg: REQUEST 5684292020391598 c2
+Caller.waitlist --- [c4, c2]
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE c2
+Received msg: RELEASE c4
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684195798288876 c5
+Received msg: RELEASE c5
+Received msg: REQUEST 5684326795069592 c1
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684255395939646 c3
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684293372895047 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684252132702483 c4
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684196954942287 c5
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684328198000025 c1
+Received msg: RELEASE c1
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684256748445126 c3
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684294925544181 c2
+Received msg: RELEASE c2
+Received msg: REQUEST 5684253636044498 c4
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684198309859480 c5
+Received msg: RELEASE c5
+Received msg: REQUEST 5684329450687455 c1
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684258100869867 c3
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684255089117323 c4
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684199666145405 c5
+Received msg: REQUEST 5684296582659823 c2
+Caller.waitlist --- [c2]
+Received msg: REQUEST 5684330953891473 c1
+Caller.waitlist --- [c2, c1]
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE c2
+Received msg: RELEASE c1
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684259653635530 c3
+Received msg: RELEASE c3
+Received msg: REQUEST 5684256242358047 c4
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684200920755357 c5
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684332356846771 c1
+Received msg: REQUEST 5684298286512559 c2
+Caller.waitlist --- [c2]
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c2
+Received msg: REQUEST 5684261006200351 c3
+Received msg: RELEASE c3
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684202376063970 c5
+Received msg: REQUEST 5684257848349997 c4
+Caller.waitlist --- [c4]
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c4
+Received msg: REQUEST 5684333709509282 c1
+Received msg: RELEASE c1
+Received msg: REQUEST 5684299738942106 c2
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684262458771051 c3
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684203536621340 c5
+Received msg: RELEASE c5
+Received msg: RELEASE c2
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684259101281901 c4
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684335162328532 c1
+Received msg: REQUEST 5684301441845957 c2
+Caller.waitlist --- [c2]
+Received msg: REQUEST 5684204791373068 c5
+Caller.waitlist --- [c2, c5]
+Received msg: RELEASE c1
+Received msg: RELEASE-WAIT c1
+Received msg: RELEASE c2
+Received msg: REQUEST 5684264111357765 c3
+Received msg: REQUEST 5684260754500262 c4
+Caller.waitlist --- [c4]
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684336715161341 c1
+Received msg: RELEASE c1
+Received msg: REQUEST 5684302794354920 c2
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684206196187567 c5
+Received msg: RELEASE c5
+Received msg: REQUEST 5684265363656878 c3
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684262057525278 c4
+Received msg: RELEASE c2
+Received msg: RELEASE-WAIT c2
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: REQUEST 5684303996541276 c2
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684338368889970 c1
+Received msg: RELEASE c1
+Received msg: REQUEST 5684207651206470 c5
+Received msg: RELEASE c2
+Received msg: RELEASE-WAIT c2
+Received msg: REQUEST 5684267116410707 c3
+Received msg: RELEASE-WAIT c1
+Received msg: REQUEST 5684263610998191 c4
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c4
+Received msg: RELEASE-WAIT c4
+Received msg: REQUEST 5684268268590989 c3
+Received msg: REQUEST 5684264763638197 c4
+Caller.waitlist --- [c4]
+Received msg: REQUEST 5684209407233963 c5
+Caller.waitlist --- [c4, c5]
+Received msg: RELEASE c3
+Received msg: RELEASE-WAIT c3
+Received msg: RELEASE c4
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c4
+Received msg: RELEASE-WAIT c5
+Received msg: REQUEST 5684210913044019 c5
+Received msg: RELEASE c5
+Received msg: RELEASE-WAIT c5
+Received msg: Terminate s1
+Terminating node s3

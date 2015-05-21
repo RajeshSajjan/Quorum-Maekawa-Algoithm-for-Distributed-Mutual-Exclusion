@@ -1,0 +1,2 @@
+Critical Section in time - 600ms
+Random wait time range - 10s - 15s

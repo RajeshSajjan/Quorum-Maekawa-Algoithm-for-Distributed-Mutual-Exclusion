@@ -1,0 +1,477 @@
+Enter name of the node
+Node c1 is connected to node s1
+Node c1 is connected to node s2
+Node c1 is connected to node s3
+Node c1 is connected to node s4
+Node c1 is connected to node s5
+Node c1 is connected to node s6
+Node c1 is connected to node s7
+***********************Maekawa***************************************
+
+************ Turn 1 *************
+Entering random time 8
+ TIMER ************* 5686714256458906
+Received msg: GRANT s2
+Received msg: GRANT s1
+Received msg: GRANT s5
+Received grant from quorum [s1, s2, s5]
+Number of messages exchanged 10
+Latency in milliseconds : 7
+******* Node c1 has entered critical section******
+Received msg: GRANT s6
+Received msg: GRANT s4
+Received msg: GRANT s3
+Time : 1
+Received msg: GRANT s7
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 2 *************
+Entering random time 6
+ TIMER ************* 5686715211609749
+Received msg: GRANT s1
+Received msg: GRANT s6
+Received msg: GRANT s2
+Received msg: GRANT s3
+Received grant from quorum [s1, s3, s6]
+Received msg: GRANT s5
+Received msg: GRANT s4
+Received msg: GRANT s7
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 3 *************
+Entering random time 8
+ TIMER ************* 5686716363613970
+Received msg: GRANT s4
+Received msg: GRANT s6
+Received msg: GRANT s3
+Received msg: GRANT s1
+Received grant from quorum [s1, s3, s6]
+Number of messages exchanged 11
+Latency in milliseconds : 37
+******* Node c1 has entered critical section******
+Received msg: GRANT s5
+Received msg: GRANT s2
+Time : 1
+Received msg: GRANT s7
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 4 *************
+Entering random time 6
+ TIMER ************* 5686717315451423
+Received msg: GRANT s1
+Received msg: GRANT s2
+Received msg: GRANT s5
+Received msg: GRANT s3
+Received grant from quorum [s1, s2, s5]
+Number of messages exchanged 10
+Received msg: GRANT s7
+Received msg: GRANT s6
+Received msg: GRANT s4
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 5 *************
+Entering random time 6
+ TIMER ************* 5686718267292904
+Received msg: GRANT s2
+Received msg: GRANT s1
+Received msg: GRANT s7
+Received msg: GRANT s3
+Received msg: GRANT s4
+Received grant from quorum [s1, s3, s7]
+Number of messages exchanged 11
+Received msg: GRANT s5
+Received msg: GRANT s6
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 6 *************
+Entering random time 6
+ TIMER ************* 5686719219196758
+Received msg: GRANT s5
+Received msg: GRANT s6
+Received msg: GRANT s4
+Received msg: GRANT s2
+Received msg: GRANT s1
+Received msg: GRANT s7
+Received msg: GRANT s3
+Received grant from quorum [s1, s2, s4]
+Number of messages exchanged 12
+Latency in milliseconds : 36
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 7 *************
+Entering random time 8
+ TIMER ************* 5686720371178082
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s3
+Received msg: GRANT s5
+Received msg: GRANT s1
+Received grant from quorum [s2, s5, s3, s6]
+Received msg: GRANT s7
+Received msg: GRANT s4
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 8 *************
+Entering random time 9
+ TIMER ************* 5686721623355499
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s3
+Received msg: GRANT s7
+Received msg: GRANT s5
+Received msg: GRANT s1
+Received grant from quorum [s2, s5, s3, s6]
+Number of messages exchanged 12
+Received msg: GRANT s4
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 9 *************
+Entering random time 7
+ TIMER ************* 5686722675282999
+Received msg: GRANT s2
+Received msg: GRANT s5
+Received msg: GRANT s3
+Received msg: GRANT s7
+Received msg: GRANT s4
+Received grant from quorum [s2, s5, s3, s7]
+Number of messages exchanged 11
+Received msg: GRANT s1
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Received msg: GRANT s6
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 10 *************
+Entering random time 5
+ TIMER ************* 5686723527295684
+Received msg: GRANT s3
+Received msg: GRANT s5
+Received msg: GRANT s6
+Received msg: GRANT s2
+Received msg: GRANT s4
+Received grant from quorum [s2, s5, s3, s6]
+Number of messages exchanged 11
+Latency in milliseconds : 139
+******* Node c1 has entered critical section******
+Received msg: GRANT s1
+Received msg: GRANT s7
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 11 *************
+Entering random time 5
+ TIMER ************* 5686724479121775
+Received msg: GRANT s2
+Received msg: GRANT s4
+Received msg: GRANT s6
+Received msg: GRANT s7
+Received msg: GRANT s3
+Received grant from quorum [s2, s4, s6, s7]
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+Received msg: GRANT s5
+Received msg: GRANT s1
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 12 *************
+Entering random time 8
+ TIMER ************* 5686725631185195
+Received msg: GRANT s2
+Received msg: GRANT s7
+Received msg: GRANT s4
+Received msg: GRANT s3
+Received msg: GRANT s6
+Received msg: GRANT s1
+Received grant from quorum [s1, s3, s6]
+Number of messages exchanged 13
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Received msg: GRANT s5
+Received grant from quorum [s1, s2, s4]
+Number of messages exchanged 13
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 13 *************
+Entering random time 8
+ TIMER ************* 5686726783157803
+Received msg: GRANT s1
+Received msg: GRANT s5
+Received msg: GRANT s3
+Received msg: GRANT s4
+Received grant from quorum [s1, s4, s5]
+Received msg: GRANT s7
+Received msg: GRANT s6
+Received grant from quorum [s1, s4, s5]
+Number of messages exchanged 11
+Number of messages exchanged 11
+Latency in milliseconds : 86
+******* Node c1 has entered critical section******
+Received msg: GRANT s2
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 14 *************
+Entering random time 8
+ TIMER ************* 5686727985323254
+Received msg: GRANT s6
+Received msg: GRANT s2
+Received msg: GRANT s7
+Received msg: GRANT s1
+Received grant from quorum [s1, s6, s7]
+Number of messages exchanged 11
+Latency in milliseconds : 10
+******* Node c1 has entered critical section******
+Received msg: GRANT s3
+Received msg: GRANT s4
+Received msg: GRANT s5
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 15 *************
+Entering random time 8
+ TIMER ************* 5686729137459277
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s3
+Received msg: GRANT s4
+Received grant from quorum [s2, s4, s3, s6]
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Received msg: GRANT s7
+Received msg: GRANT s5
+Received msg: GRANT s1
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 16 *************
+Entering random time 7
+ TIMER ************* 5686730189304287
+Received msg: GRANT s3
+Received msg: GRANT s7
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s4
+Received msg: GRANT s5
+Received grant from quorum [s2, s4, s3, s6]
+Number of messages exchanged 12
+Latency in milliseconds : 61
+Received msg: GRANT s1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 17 *************
+Entering random time 5
+ TIMER ************* 5686731091062774
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s3
+Received msg: GRANT s5
+Received msg: GRANT s1
+Received msg: GRANT s7
+Received grant from quorum [s2, s5, s3, s6]
+Received msg: GRANT s4
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 18 *************
+Entering random time 7
+ TIMER ************* 5686732142995422
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s1
+Received msg: GRANT s3
+Received grant from quorum [s1, s3, s6]
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Received msg: GRANT s5
+Time : 1
+Received msg: GRANT s4
+Received msg: GRANT s7
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 19 *************
+Entering random time 6
+ TIMER ************* 5686733094990476
+Received msg: GRANT s2
+Received msg: GRANT s3
+Received msg: GRANT s1
+Received msg: GRANT s6
+Received msg: GRANT s7
+Received msg: GRANT s5
+Received msg: GRANT s4
+Received grant from quorum [s2, s5, s3, s6]
+Number of messages exchanged 12
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+
+************ Turn 20 *************
+Entering random time 5
+ TIMER ************* 5686733946811697
+Received msg: GRANT s2
+Received msg: GRANT s6
+Received msg: GRANT s4
+Received msg: GRANT s3
+Received msg: GRANT s1
+Received msg: GRANT s7
+Received grant from quorum [s2, s4, s3, s6]
+Number of messages exchanged 11
+Latency in milliseconds : 1
+******* Node c1 has entered critical section******
+Received msg: GRANT s5
+Time : 1
+Time : 2
+Time : 3
+
+************ Exiting Critical SEction *************
+************* Sending RELEASE messages**************
+***** Round Completed****
+
+Total msg sent 280
+Total msg received 140
+Received msg: Terminate s1
+Terminating node c1
